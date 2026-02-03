@@ -1,39 +1,39 @@
-const logotext = "JOHN";
+const logotext = "Rithusha";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Rithusha Keerthi",
+    description: "I'm Rithusha Keerthi Final year IT student,Looking forward to work as a Software Engineer.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Rithusha Keerthi",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "Fascinated in Web Development and Data Science",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "A passionate Software Engineering student (2022–26) specializing in Python and C++ development, full-stack web development, and AI-powered applications.",
+    your_img_url: "https://spectacular-teal-5yo2tnsu3y.edgeone.app/rithusha.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "A passionate IT undergrad (2022–26) who loves turning ideas into meaningful digital experiences.Things excites me most are creating projects that actually help people — whether it’s a platform for students to showcase their work or an AI-powered assistant that simplifies decision-making. I enjoy learning new tech, understanding how things work behind the scenes, and improving a little every day.Outside coding, I love exploring new tools, improving my problem-solving skills, and working on projects that challenge my creativity.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Web Design Intern",
+        where: "SparkstoIdeas",
+        date: "2025",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "Jamalya",
+    //     date: "2019",
+    // },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "ALquds",
+    //     date: "2019",
+    // },
 ];
 
 const skills = [{
@@ -41,7 +41,7 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "C++",
         value: 85,
     },
     {
@@ -50,41 +50,39 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 75,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "SQL",
+        value: 70,
+    },
+    {
+        name: "Git & Github",
+        value: 70,
+    },
+    {
+        name: "DSA",
+        value: 70,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Apps",
+        description: "I'm always ready for new designs and new ideas,contact me with your Ideas.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Software Engineer",
+        description: "Actively looking to work as a software engineer at an Organization.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Teaching",
+        description: "Love both Learning and Teaching,I love to teach children coding and help them as a subject expert.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://plus.unsplash.com/premium_photo-1683134153517-32015af21911?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d2Vic2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww",
+        description: "SENSAI — AI Career Coach",
         link: "#",
     },
     {
@@ -92,27 +90,17 @@ const dataportfolio = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+    
+    {   img:"https://res.cloudinary.com/dslkr3vxx/image/upload/q_auto,f_auto,w_auto/v1674184934/623x208_rzreky.png",
+        description: "THE PROJECT HUB - Student Project Showcase",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1709159289/catalog/1608080831303368704/iomwuslpwsjzhpnuxoyi.webp",
+        description: "INK2TEXT - Handwritten Texts to Digital pdfs.",
+        link: "https://github.com/Rithusha08/Ink2Text",
     },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
     {
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -122,41 +110,31 @@ const dataportfolio = [{
         img: "https://picsum.photos/400/550/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "keerthirithusha0805@gmail.com",
+    YOUR_FONE: "+919014352092",
+    description: "Let's start a project together.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_tq0uige",
+    YOUR_TEMPLATE_ID: "template_zrwmpjq",
+    YOUR_USER_ID: "Rithusha Keerthi",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Rithusha08",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://linkedin.com/in/rithusha-keerthi-47747b263/",
     twitter: "https://twitter.com",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
     worktimeline,
+    dataportfolio,
     skills,
     services,
     introdata,

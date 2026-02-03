@@ -120,7 +120,7 @@ const contactConfig = {
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_tq0uige",
-    YOUR_TEMPLATE_ID: "template_zrwmpjq",
+    YOUR_TEMPLATE_ID: "template_3eb4jxe",
     YOUR_USER_ID: "B9a0h04u8WjwjXVXv",
 };
 
